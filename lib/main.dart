@@ -1,9 +1,5 @@
-// friendly_chat
-
-import 'package:aya/constants/constants.dart';
-import 'package:aya/screen//login/welcome_screen.dart';
+import 'package:aya/pages/navpages/main_pages.dart';
 import 'package:flutter/material.dart';
-// import 'screen/chat/chat.dart';
 
 // void main() => runApp(const FriendlyChatApp());
 void main() => runApp(MyApp());
@@ -16,10 +12,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Aya Login',
       theme: ThemeData(
-        primaryColor: kPrimaryColor,
+        primaryColor: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: WelcomeScreen(),
+      home: MainPage()
+      // home: FriendlyChatApp(),
     );
   }
 }

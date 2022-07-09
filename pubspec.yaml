@@ -84,3 +84,19 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+#  fonts:
+#    - family: Schyler
+#      fonts:
+#        - assets: fonts/Schyler-Regular.ttf
+#        - assets: fonts/Schyler-Italic.ttf
+#          style: italic
+#    - family: Trajan Pro
+#      fonts:
+#        - assets: fonts/TrajanPro.ttf
+#        - assets: fonts/TrajanPro_Bold.ttf
+#          weight: 700
+#  fonts:
+#    - family: RubikMonoOne
+#      fonts:
+#        - asset: fonts/RubikMonoOne-Regular.ttf

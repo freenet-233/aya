@@ -14,8 +14,18 @@ class Body extends StatelessWidget {
         children: <Widget>[
           Text(
             "WELCOME TO AYA",
-            style: TextStyle(fontWeight: FontWeight.bold),
+            style: TextStyle(
+                color: Colors.purple,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.bold,
+                fontSize: 26,
+                letterSpacing: 1,
+                wordSpacing: 8
+            ),
           ),
+          Padding(
+              padding: EdgeInsets.symmetric(vertical: 30.0),
+          ),//使用Padding填充上下、左右间距
           SvgPicture.asset(
             "assets/icons/chat.svg",
             height: size.height * 0.45,
